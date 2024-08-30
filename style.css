@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+/* variables  */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Spartan", sans-serif;
+}
+
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E6E5E5;
+    padding: 1.5rem 2rem;
+    font-weight: 500;
+}
+
+.nav-menu {
+    flex: 1;
+    padding: 0 1.3rem;
+}
+
+.nav-menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.nav-menu li {
+    list-style: none;
+}
+
+.nav-menu li a {
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+
+    &:hover {
+        color: green;
+    }
+
+    &:hover::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 70%;
+        transition: 1s ease;
+        background-color: green;
+        height: 2px;
+    }
+}
+
+
+.nav-account i {
+    padding: 0.3vw;
+}
+
+.nav-account a {
+    padding: 0.8vw;
+}
+
+
+
+/* intro */
+.intro-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 0.2rem;
+}
+
+.intro-card-img {
+    width: 100%;
+}
