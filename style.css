@@ -409,7 +409,7 @@ body {
     position: relative;
     width: 80%;
     overflow: hidden;
-    height: 50rem;
+    height: 50vw;
     margin-top: 7rem;
     left: 50%;
     transform: translateX(-50%);
@@ -422,4 +422,57 @@ body {
     position: absolute;
     object-fit: cover;
     transition: transform 0.5s ease;
+}
+
+.shipment-heading {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.shipment {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5rem 0;
+}
+
+.discount-background {
+    width: 100%;
+    background: url(./assests/discount/1.jpg);
+    height: 45vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.discount-background button {
+    padding: 1rem 2rem;
+    background-color: red;
+    border: none;
+    outline: none;
+}
+
+.discount-background button span {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.discount-background h1 {
+    font-size: 2rem;
+}
+
+.discount-background h3 {
+    font-size: 1.5rem;
+}
+
+.discount-background span {
+    color: red;
+}
+
+.discount-background button:hover {
+    background-color: rgb(141, 33, 33);
 }
