@@ -512,3 +512,106 @@ body {
     font-weight: 700;
     font-size: 2.5rem;
 }
+
+.newsletter {
+    background-color: black;
+    color: white;
+    margin-top: 3rem;
+    padding: 3rem;
+}
+
+.newsletter h1 {
+    text-align: center;
+}
+
+.newsletter p {
+    text-align: center;
+    padding: 1vw;
+}
+
+.newsletter input {
+    padding: 1rem 3rem;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    height: 3rem;
+}
+
+.newsletter-email {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-email button {
+    padding: 1rem 1rem;
+    background-color: #E6E5E5;
+    color: black;
+    border: none;
+    height: 3rem;
+}
+
+.newsletter span {
+    color: red;
+}
+
+.footer {
+    margin-top: 2rem;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-evenly;
+}
+
+.footer p {
+    color: rgba(85, 80, 80, 0.611);
+    padding: 0.25rem;
+    font-weight: 500;
+}
+
+.footer p:hover {
+    color: black;
+}
+
+.footer h3 {
+    font-weight: 800;
+    padding: 0.25rem;
+    position: relative;
+}
+
+.footer h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    /* width: 70%; */
+    transition: 1s ease;
+    background-color: black;
+    height: 2px;
+
+}
+
+.fa-instagram:hover {
+    color: rgb(226, 19, 53);
+}
+
+.fa-twitter:hover {
+    color: rgb(77, 121, 171);
+}
+
+.fa-youtube:hover {
+    color: red;
+}
+
+.fa-discord:hover {
+    color: rgb(121, 17, 121);
+}
+
+.fa-twitch:hover {
+    color: rgb(121, 17, 121);
+}
+
+.copyright {
+    color: rgba(85, 80, 80, 0.611);
+    text-align: center;
+}
