@@ -453,23 +453,23 @@ body {
 }
 
 .discount-background button {
-    padding: 1rem 2rem;
+    padding: 1vw 2vw;
     background-color: red;
     border: none;
     outline: none;
 }
 
 .discount-background button span {
-    font-size: 1.5rem;
+    font-size: 2vw;
     color: white;
 }
 
 .discount-background h1 {
-    font-size: 2rem;
+    font-size: 3vw;
 }
 
 .discount-background h3 {
-    font-size: 1.5rem;
+    font-size: 3vw;
 }
 
 .discount-background span {
@@ -478,4 +478,35 @@ body {
 
 .discount-background button:hover {
     background-color: rgb(141, 33, 33);
+}
+
+.merchandise {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.merchandise div {
+    width: 20vw;
+    height: 20vw;
+    overflow: hidden;
+}
+
+.merchandise img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+    object-fit: cover;
+}
+
+.merchandise img:hover {
+    transform: scale(1.1);
+}
+
+
+.merchandise-heading {
+    margin: 3rem 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
 }
