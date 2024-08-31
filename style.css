@@ -84,6 +84,8 @@ body {
 
 .nav-account a {
     padding: 0.8vw;
+    text-decoration: none;
+    color: black;
 }
 
 
