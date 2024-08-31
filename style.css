@@ -86,3 +86,106 @@ body {
 .intro-card-img {
     width: 100%;
 }
+
+.intro-card-text {
+    padding: 1vw;
+
+    & h1 {
+        font-size: 2.5vw;
+    }
+
+    & p {
+        font-weight: 500;
+        font-size: 1.25vw;
+    }
+
+    & a {
+        color: black;
+        font-weight: 500;
+        font-size: 1.20vw;
+
+        &:hover {
+            color: rgb(232, 15, 51);
+        }
+    }
+}
+
+@media(max-width: 600px) {
+
+    .intro-card-text a {
+        display: none;
+    }
+
+}
+
+.intro-card-text>* {
+    padding: 2vw;
+}
+
+.intro-card-instagram-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: clamp(1vw, 2vw, 3vw);
+
+    & p {
+        font-size: 1.5vw;
+        display: inline;
+        font-weight: 350;
+    }
+
+    & p:nth-child(2) {
+        font-size: 1vw;
+    }
+}
+
+.intro-card-instagram-fb {
+    padding: 1vw 0vw;
+
+    & p:nth-child(1) {
+        font-size: 1.25vw;
+    }
+
+    & i {
+        font-size: 1.25vw;
+        color: white;
+        background-color: black;
+        border-radius: 50%;
+        margin-left: 2vw;
+    }
+}
+
+.intro-card-instagram-hr {
+    width: 100%;
+
+    & hr {
+        border: none;
+        margin-top: 1.075vw;
+        background-color: orange;
+    }
+
+
+    & hr:nth-child(1) {
+        height: 0.25vw;
+    }
+
+    & hr:nth-child(2) {
+        height: 0.5vw;
+    }
+
+    & hr:nth-child(3) {
+        height: 1vw;
+    }
+
+    & hr:nth-child(4) {
+        height: 1.25vw;
+    }
+
+    & hr:nth-child(5) {
+        height: 1.5vw;
+    }
+
+    & hr:nth-child(6) {
+        height: 1.75vw;
+    }
+}
