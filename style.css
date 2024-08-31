@@ -2,6 +2,9 @@
 
 
 /* variables  */
+:root {
+    --background-color: #E6E5E5;
+}
 
 
 * {
@@ -13,7 +16,7 @@
 
 body {
     font-family: "Spartan", sans-serif;
-    background-color: #E6E5E5;
+    background-color: var(--background-color);
 }
 
 
